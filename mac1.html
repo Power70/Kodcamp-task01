@@ -13,17 +13,20 @@
 <body>
     <div class="container">
         <div class="left">
-          <div><h1>Kodecamp</h1></div>
+          <div>
+            <h1>Kodecamp</h1>
+        </div>
           <div class="text">
             <h2>Join Our next cohort</h2>
             <p>An intenship that turn newbies to probies</p>
           </div>
         </div>
         <div class="right">
-          <div class="image">
+            <div class="right-containeer">
+                <div class="image">
             <img src="image/WhatsApp_Image_2021-08-10_at_12.52 1.png" alt="">
           </div>
-          <h2>Sign-up</h2>
+          <h2 class="Sign-up">Sign-up</h2>
           <form action="">
             <div class="flex">
               <div class="left-column">
@@ -31,6 +34,15 @@
                 <input type="text">
                 <label for="email">Email</label>
                 <input type="text" id="email">
+                <label for="password">Password</label>
+                <input type="text" id="password">
+                <label for="educational-level">Educational Level</label>
+                <select name="educational-level" id="educational-level">
+                  <option value="colleage">Colleage</option>
+                  <option value="undergraduate">Undergraduate</option>
+                  <option value="masters">Masters</option>
+                  <option value="other">Others</option>
+                </select>
               </div>
               <div class="right-column">
                 <label for="last-name">last-name</label>
@@ -41,10 +53,26 @@
                     <option value="female">Female</option>
                     <option value="others">Others</option>
                 </select>
+                <label for="comfirm-password">Comfirm Password</label>
+                <input type="text" id="comfirm-password">
+                <label for="experience-level">Experience Level</label>
+                <select name="experience-level" id="experience-level">
+                  <option value="newbie">Newbie</option>
+                  <option value="intermediate">Intermediate</option>
+                  <option value="advance">Advance</option>
+                </select>
               </div>
             </div>
           </form>
+          <div class="about-you">
+            <label for="about-you">Tell us about you</label>
+            <input type="text" id="about-you" class="about">
+          </div>
+          <div class="button">
+              <button>Create Account</button>
+          </div>
+            </div>
         </div>
-      </div>
+    </div>
 </body>
 </html>
